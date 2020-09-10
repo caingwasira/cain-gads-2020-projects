@@ -1,1 +1,1 @@
-# cain-gads-2020-projects
+# Cain's GADS Project Submissions
