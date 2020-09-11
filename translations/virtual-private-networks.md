@@ -13,13 +13,13 @@ In this lab you learn how to perform the following tasks:
 
    1. Explore the networks:
 
-      gcloud compute networks list
+            gcloud compute networks list
 
-      gcloud compute networks subnets list
+            gcloud compute networks subnets list
 
    2. Explore the firewall rules:
 
-      gcloud compute firewall-rules list
+            gcloud compute firewall-rules list
 
    3. Explore the instances and their connectivity:
 
