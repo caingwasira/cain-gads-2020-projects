@@ -107,30 +107,30 @@ In this lab you learn how to perform the following tasks:
 
    1. Verify server-1 to server-2 connectivity:
 
-      gcloud compute instances list
+            gcloud compute instances list
 
-      gcloud compute ssh server-1
+            gcloud compute ssh server-1
 
-      ping -c 3 10.128.0.2
+            ping -c 3 10.128.0.2
 
-      exit
+            exit
 
-      gcloud compute instances list
+            gcloud compute instances list
 
-      gcloud compute ssh server-2
+            gcloud compute ssh server-2
 
-      ping -c 3 10.132.0.2
+            ping -c 3 10.132.0.2
 
    2. Remove the external IP addresses
 
-      gcloud compute instances list
+            gcloud compute instances list
 
-      gcloud compute instances stop server-1
+            gcloud compute instances stop server-1
 
-      gcloud compute instances describe server-1
+            gcloud compute instances describe server-1
 
-      gcloud compute instances delete-access-config server-1 --access-config-name external-nat
+            gcloud compute instances delete-access-config server-1 --access-config-name external-nat
 
-      gcloud compute instances start server-1
+            gcloud compute instances start server-1
 
-      gcloud compute instances describe
+            gcloud compute instances describe
