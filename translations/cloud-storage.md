@@ -1,5 +1,4 @@
-# LAB: Google Cloud Fundamentals: Getting Started with Cloud Storage and Cloud SQL
-
+# LAB: Google Cloud Fundamentals: Cloud Storage
 ## Objectives:
 
 In this lab, you learn how to perform the following tasks:
